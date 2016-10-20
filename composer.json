@@ -1,0 +1,17 @@
+{
+    "name": "lkallioniemi/git-hooks",
+    "description": "Pre-defined git commit hooks",
+    "keywords": ["package", "repository", "generator","git"],
+    "homepage": "https://www.frantic.com",
+    "type": "git-hook",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lauri Kallioniemi",
+            "email": "lauri.kallioniemi@frantic.com"
+        }
+    ],
+    "require": {
+         "koodimonni/composer-dropin-installer": "*"
+    }
+}

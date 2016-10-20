@@ -1,0 +1,6 @@
+#!/bin/sh
+if find . -name Gruntfile.js -not -path "*/node_modules/*" -exec grunt -gruntfile {} validate \; | grep "Unable to find local grunt"
+    then 
+        echo "You need to have Grunt installed"
+        exit 1
+fi
